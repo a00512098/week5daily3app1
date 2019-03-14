@@ -8,11 +8,5 @@ import android.widget.Toast;
 public class CustomBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        if(intent != null) {
-            String receivedString = intent.getStringExtra("message");
-            if(receivedString != null) {
-                Toast.makeText(context, "String Passed = " + receivedString, Toast.LENGTH_SHORT).show();
-            }
-        }
     }
 }
