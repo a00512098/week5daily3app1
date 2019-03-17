@@ -11,6 +11,6 @@
 --------------------------------------------------------------------
 
 This app lets the user add information about a product and then it sends that information through a broadcast for a different app to receive it and add it to a database.
-This is how the app looks: ![alt text] [img1]
+This is how the app looks: ![alt text][img1]
 
-[img1]: "App running"
+[img1]: https://github.com/a00512098/screenshots/blob/master/week5day3app1/device-2019-03-17-140122.png?raw=true "App running"
